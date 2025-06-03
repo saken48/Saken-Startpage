@@ -22,3 +22,9 @@
   -webkit-backdrop-filter: blur(8px) !important;
 }
 
+/* Membuat status bar transparan */
+status-bar {
+  background: rgba(24, 25, 38, 0.7) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+}
