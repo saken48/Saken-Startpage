@@ -191,7 +191,7 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/retro-mario.png",
+      background_url: "src/img/wallhaven-1p7dww_1920x1200.png",
       categories: [
         {
           name: "media",
