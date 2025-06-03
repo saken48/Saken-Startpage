@@ -337,7 +337,7 @@ const default_config = {
     },
     {
       name: "gaming",
-      background_url: "src/img/banners/doom-slayer.png",
+      background_url: "src/img/wallhaven-2yrpog_2560x1600.png",
       categories: [
         {
           name: "stores",
