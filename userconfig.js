@@ -17,7 +17,7 @@ const default_config = {
   tabs: [
     {
       name: "personal",
-      background_url: "src/img/banners/window-room.png",
+      background_url: "src/img/wallhaven-3lxrz6_1920x1200.png",
       categories: [
         {
           name: "media/rrss",
