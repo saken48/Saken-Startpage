@@ -2,7 +2,7 @@
 
 /* Membuat panel utama transparan */
 #panels {
-  background: rgba(24, 25, 38, 0.7) !important; /* Warna dengan transparansi 70% */
+  background: rgba(24, 25, 38, 0.0) !important; /* Warna dengan transparansi 70% */
   backdrop-filter: blur(10px) !important; /* Efek blur untuk glassmorphism */
   -webkit-backdrop-filter: blur(10px) !important; /* Untuk kompatibilitas Safari */
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3) !important; /* Bayangan lebih halus */
@@ -10,21 +10,21 @@
 
 /* Membuat area links (panel kanan) transparan */
 .categories .links {
-  background: rgba(24, 25, 38, 0.5) !important; /* Warna dengan transparansi 50% */
+  background: rgba(24, 25, 38, 0.0) !important; /* Warna dengan transparansi 50% */
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
 }
 
 /* Membuat sidebar kategori (panel kiri dengan teks vertikal) transparan */
 .categories ul::after {
-  background: linear-gradient(to top, rgba(24, 25, 38, 0.6), transparent) !important;
+  background: linear-gradient(to top, rgba(24, 25, 38, 0.0), transparent) !important;
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
 }
 
 /* Membuat status bar transparan */
 status-bar {
-  background: rgba(24, 25, 38, 0.7) !important;
+  background: rgba(24, 25, 38, 0.0) !important;
   backdrop-filter: blur(10px) !important;
   -webkit-backdrop-filter: blur(10px) !important;
 }
