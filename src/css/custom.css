@@ -14,3 +14,11 @@
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
 }
+
+/* Membuat sidebar kategori (panel kiri dengan teks vertikal) transparan */
+.categories ul::after {
+  background: linear-gradient(to top, rgba(24, 25, 38, 0.6), transparent) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+}
+
