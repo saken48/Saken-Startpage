@@ -1,0 +1,16 @@
+/* File: src/css/custom.css */
+
+/* Membuat panel utama transparan */
+#panels {
+  background: rgba(24, 25, 38, 0.7) !important; /* Warna dengan transparansi 70% */
+  backdrop-filter: blur(10px) !important; /* Efek blur untuk glassmorphism */
+  -webkit-backdrop-filter: blur(10px) !important; /* Untuk kompatibilitas Safari */
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3) !important; /* Bayangan lebih halus */
+}
+
+/* Membuat area links (panel kanan) transparan */
+.categories .links {
+  background: rgba(24, 25, 38, 0.5) !important; /* Warna dengan transparansi 50% */
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+}
